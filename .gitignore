@@ -1,0 +1,18 @@
+# Ignore all files and subdirectories in the .idea folder
+.idea/
+
+# Ignore the output directory and all its contents
+output/
+
+# Ignore the yolo_v4 directory and all its contents
+yolo_v4/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore redundant code in the src/redundant directory
+src/redundant/
+
+# Ignore specific video files in the data directory
+data/cars_pass_by.mp4
+data/moving_cars.mp4
