@@ -73,7 +73,7 @@ No license. Open sourced.
 
 For any inquiries or feedback, please reach out to:
 
-- **Your Name**: [bharadhwaj2299@gmail.com](mailto:bharadhwaj2299@gmail.com)
+- **Name**: [bharadhwaj2299@gmail.com](mailto:bharadhwaj2299@gmail.com)
 
 ---
 
