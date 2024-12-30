@@ -16,11 +16,19 @@ This project focuses on estimating the speed of vehicles using optical flow tech
 - [Contact](#contact)
 
 ## Introduction
+In this project, Lucas-Kanade optical flow method [link](https://www.cse.unr.edu/~bebis/CS474/Handouts/Lucas_Kanade.pdf) is employed to capture and analyze the movement of vehicles in a video feed. The main steps involved in the process are as follows:
 
-In this project, we employ optical flow methods to capture and analyze the movement of vehicles in a video feed. The main steps involved in the process include:
-1. Capturing video frames.
-2. Applying optical flow algorithms to detect motion.
-3. Calculating vehicle speed based on the detected motion.
+1. **Capturing Video Frames**: The first step involves capturing video frames from a pre-recorded video file or a real-time video feed. This provides the raw data needed for further processing.
+
+2. **Perspective Transformation**: To obtain a bird's eye view of the scene, a perspective transformation is applied to the captured video frames. This transformation helps in reducing the distortion caused by the camera angle and provides a top-down view of the vehicles, making it easier to analyze their motion.
+
+3. **Optical Flow Calculation**: Optical flow algorithms, such as the Farneback or Lucas-Kanade method, are then applied to the transformed video frames. These algorithms compute the motion vectors of the pixels in the frames, which represent the apparent motion of objects in the scene.
+
+4. **Speed Estimation**: Using the motion vectors obtained from the optical flow calculation, the speed of the vehicles is estimated. This involves analyzing the magnitude and direction of the motion vectors to determine the velocity of each vehicle in the scene.
+
+By following these steps, we can accurately estimate the speed of moving vehicles in a video feed using optical flow techniques.
+
+![Flowchart](asets/project_flowchart.png)
 
 ## Features
 
@@ -73,7 +81,7 @@ No license. Open sourced.
 
 For any inquiries or feedback, please reach out to:
 
-- **Name**: [bharadhwaj2299@gmail.com](mailto:bharadhwaj2299@gmail.com)
+- [Email](mailto:bharadhwaj2299@gmail.com)
 
 ---
 
